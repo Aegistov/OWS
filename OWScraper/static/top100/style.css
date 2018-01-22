@@ -1,0 +1,17 @@
+h1 {
+    color: red
+}
+
+.player * {
+    display: inline
+}
+
+.heroes {
+    color: blue
+}
+.heroes h3 {
+    display: inline
+}
+.heroes img {
+    display: inline
+}
