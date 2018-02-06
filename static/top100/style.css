@@ -1,0 +1,28 @@
+h1 {
+    color: red
+}
+
+img:after {
+    content: "Broken Image";
+    font-size: 16px;
+}
+
+.icon {
+    width: 50,
+    height: 50
+}
+
+.player * {
+    display: inline
+}
+
+.heroes {
+    color: blue;
+    margin: 50px 0px
+}
+.heroes h3 {
+    display: inline
+}
+.heroes img {
+    display: inline
+}

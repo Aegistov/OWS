@@ -1,0 +1,23 @@
+body {
+    background-color: #405275;
+}
+
+.row {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    align-content: center;
+}
+.header {
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    font-size: 80px;
+    color: #f99e1a;
+    font-family: Impact;
+    align-content: center;
+}
+.img {
+    border:2px solid #43484c;
+    border-radius: 25px;
+}

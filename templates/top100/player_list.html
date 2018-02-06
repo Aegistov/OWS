@@ -1,0 +1,25 @@
+<link rel='stylesheet' href='../static/top100/style.css' />
+<h1>Players</h1>
+<ul>
+{% for player in players %}
+    <li>
+        <div class='player'>
+            <h2>{{ player.player_tag }}</h2>
+            <img height='50' width='50' src={{ player.player_icon }} />
+        </div>
+        <div class='heroes'>
+            <h3>{{ player.char_one_name }}</h3>
+            <img src={{ player.char_one_image }} />
+            <h3>{{ player.char_two_name }}</h3>
+            <img src={{ player.char_two_image }} />
+            <h3>{{ player.char_three_name }}</h3>
+            <img src={{ player.char_three_image }} />
+            <h3>{{ player.char_four_name }}</h3>
+            <img src={{ player.char_four_image }} />
+            <h3>{{ player.char_five_name }}</h3>
+            <img src={{ player.char_five_image }} />
+        <div>
+        
+    </li>
+{% endfor %}
+</ul>
